@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Replicant Network Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -16,40 +16,56 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "get-started/introduction",
+              "get-started/quickstart"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Marketplace",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "marketplace/how-to",
+              "marketplace/navigation",
+              "marketplace/workflow",
+              "marketplace/supported-model-types",
+              "marketplace/tokenization",
+              "marketplace/use-ai-models",
+              "marketplace/ai-agents",
+              "marketplace/pricing",
+              "marketplace/governance",
+              "marketplace/rn-token"
+            ]
+          },
+          {
+            "group": "Developers",
+            "pages": [
+              "developers/ai-developers",
+              "developers/platform"
+            ]
+          },
+          {
+            "group": "About",
+            "pages": [
+              "about/team"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Smart Contracts",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Smart Contracts",
             "pages": [
-              "api-reference/introduction"
+              "smart-contracts/introduction"
             ]
           },
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "smart-contracts/endpoint/get",
+              "smart-contracts/endpoint/create",
+              "smart-contracts/endpoint/delete",
+              "smart-contracts/endpoint/webhook"
             ]
           }
         ]
@@ -58,18 +74,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Website",
+          "href": "https://rplcnt.io",
+          "icon": "desktop"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://mirror.xyz/0x425a76303f5d18d8b954fC1ade5DA6bB2B8ffEe8",
           "icon": "newspaper"
         }
       ]
@@ -82,21 +93,29 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "GitHub",
+        "href": "https://github.com/lutralabs"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/jj9K9UJwa7"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://x.com/rplcnt_io"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Visit app",
+      "href": "https://demo.rplcnt.io"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/rplcnt_io",
+      "github": "https://github.com/lutralabs",
+      "linkedin": "https://linkedin.com/company/lutras"
     }
   }
 }
