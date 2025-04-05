@@ -21,19 +21,19 @@
             ]
           },
           {
-            "group": "Marketplace",
+            "group": "Platform",
             "pages": [
-              "marketplace/how-to",
-              "marketplace/navigation",
-              "marketplace/workflow",
-              "marketplace/bounties",
-              "marketplace/supported-model-types",
-              "marketplace/tokenization",
-              "marketplace/use-ai-models",
-              "marketplace/ai-agents",
-              "marketplace/pricing",
-              "marketplace/governance",
-              "marketplace/rn-token"
+              "platform/how-to",
+              "platform/navigation",
+              "platform/workflow",
+              "platform/bounties",
+              "platform/supported-model-types",
+              "platform/tokenization",
+              "platform/use-ai-models",
+              "platform/ai-agents",
+              "platform/pricing",
+              "platform/governance",
+              "platform/rn-token"
             ]
           },
           {
