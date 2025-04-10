@@ -4,13 +4,28 @@ description: 'From model request to model inference'
 icon: 'arrow-progress'
 ---
 
-The life cycle of a model on Replicant Network is as follows:
+Replicant Network operates through four key phases to facilitate AI model creation and incentivization. Below is an overview of the process:
 
-1. Request a new model by creating a bounty (which can be either a public crowdfund or private) with a description of the model you want to create.
-2. Participate in a bounty by funding it and specifying the example prompts. If the bounty is public, other users can join the bounty.
-3. After the bounty is funded (more than xxx tokens are collected), the bounty transitions to the development phase.
-4. The model is created/trained by the AI developers in the Replicant Network community. Developers submit their models when they are ready.
-5. After the development phase is over, users participating in the bounty can vote for the best model. Prompts given in the step 2 are used on models.
-6. The best model wins the bounty. Developers gets paid, model is added to the Replicant Network, and is tokenized.
-7. The model is ready to be used on the Replicant Network.
+## 1. Publish Phase
+- **Step 1:** A user creates a crowdfunding campaign via `RepNetManager`.
+- **Step 2:** Metadata is stored in decentralized storage.
+- **Step 3:** An ERC20 token is deployed using `ERC20Factory`.
 
+## 2. Funding Phase
+- **Step 4:** Users fund the campaign by contributing money.
+- **Step 5:** ERC20 tokens are minted as rewards for contributors.
+
+## 3. Submission Phase
+- **Step 6:** AI engineers submit models to decentralized storage.
+- **Step 7:** Submissions are validated by `$RN` token holders.
+- **Step 8:** Approved submissions are managed by `RepNetManager`.
+
+## 4. Voting Phase
+- **Step 9:** Funders load submitted models via an AI inference service.
+- **Step 10:** Funders test the models.
+- **Step 11:** Funders vote for the best model using `RepNetManager`.
+- **Step 12:** The winning AI engineer is rewarded.
+
+This streamlined workflow ensures collaboration, transparency, and fair rewards for all participants in the AI economy.
+
+![Bounty Phases](../images/rndiag.svg)
