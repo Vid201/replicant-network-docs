@@ -11,13 +11,15 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Platform",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Overview",
             "pages": [
-              "get-started/introduction",
-              "get-started/quickstart"
+              "overview/introduction",
+              "overview/how-it-works",
+              "overview/comparison",
+              "overview/get-started"
             ]
           },
           {
@@ -25,48 +27,48 @@
             "pages": [
               "platform/how-to",
               "platform/navigation",
-              "platform/workflow",
-              "platform/bounties",
-              "platform/supported-model-types",
-              "platform/tokenization",
-              "platform/use-ai-models",
-              "platform/ai-agents",
+              "platform/architecture",
+              "platform/integrations",
               "platform/pricing",
+              "platform/decentralization",
               "platform/governance",
+              "platform/crowdfunding",
               "platform/rn-token"
-            ]
-          },
-          {
-            "group": "Developers",
-            "pages": [
-              "developers/ai-developers",
-              "developers/platform"
             ]
           },
           {
             "group": "About",
             "pages": [
+              "about/roadmap",
+              "about/links",
               "about/team"
             ]
           }
         ]
       },
       {
-        "tab": "Smart Contracts",
+        "tab": "Developers",
         "groups": [
           {
-            "group": "Smart Contracts",
+            "group": "Overview",
             "pages": [
-              "smart-contracts/introduction"
+              "developers/introduction",
+              "developers/vision",
+              "developers/get-started"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Architecture",
             "pages": [
-              "smart-contracts/endpoint/get",
-              "smart-contracts/endpoint/create",
-              "smart-contracts/endpoint/delete",
-              "smart-contracts/endpoint/webhook"
+              "developers/architecture"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "developers/local-setup",
+              "developers/toolkit",
+              "developers/contribution-guide"
             ]
           }
         ]
@@ -78,6 +80,11 @@
           "anchor": "Website",
           "href": "https://rplcnt.io",
           "icon": "desktop"
+        },
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/lutralabs",
+          "icon": "github"
         },
         {
           "anchor": "Blog",
