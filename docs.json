@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "linden",
   "name": "Replicant Network Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF082D",
+    "light": "#FF082D",
+    "dark": "#FF082D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,8 +18,7 @@
             "pages": [
               "overview/introduction",
               "overview/how-it-works",
-              "overview/comparison",
-              "overview/get-started"
+              "overview/comparison"
             ]
           },
           {
@@ -77,7 +76,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Website",
+          "anchor": "Whitelist",
           "href": "https://rplcnt.io",
           "icon": "desktop"
         },
@@ -115,7 +114,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Visit app",
+      "label": "Rplcnt Demo",
       "href": "https://demo.rplcnt.io"
     }
   },
