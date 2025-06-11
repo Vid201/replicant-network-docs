@@ -18,6 +18,7 @@
             "pages": [
               "overview/introduction",
               "overview/how-it-works",
+              "overview/solutions",
               "overview/comparison"
             ]
           },
@@ -75,21 +76,6 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Whitelist",
-          "href": "https://rplcnt.io",
-          "icon": "desktop"
-        },
-        {
-          "anchor": "GitHub",
-          "href": "https://github.com/lutralabs",
-          "icon": "github"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mirror.xyz/0x425a76303f5d18d8b954fC1ade5DA6bB2B8ffEe8",
-          "icon": "newspaper"
-        }
       ]
     }
   },
@@ -99,18 +85,6 @@
   },
   "navbar": {
     "links": [
-      {
-        "label": "GitHub",
-        "href": "https://github.com/lutralabs"
-      },
-      {
-        "label": "Discord",
-        "href": "https://discord.gg/jj9K9UJwa7"
-      },
-      {
-        "label": "Twitter",
-        "href": "https://x.com/rplcnt_io"
-      }
     ],
     "primary": {
       "type": "button",
@@ -120,6 +94,7 @@
   },
   "footer": {
     "socials": {
+      "discord": "https://discord.gg/jj9K9UJwa7",
       "x": "https://x.com/rplcnt_io",
       "github": "https://github.com/lutralabs",
       "linkedin": "https://linkedin.com/company/lutras"
