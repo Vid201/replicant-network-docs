@@ -17,8 +17,9 @@
             "group": "Overview",
             "pages": [
               "overview/introduction",
+              "overview/vision",
+              "overview/the-digital-divide",
               "overview/how-it-works",
-              "overview/solutions",
               "overview/comparison"
             ]
           },
