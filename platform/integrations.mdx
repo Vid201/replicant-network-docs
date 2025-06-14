@@ -4,7 +4,50 @@ description: 'Which protocols are supported by Replicant Network'
 icon: 'walkie-talkie'
 ---
 
-Protocols are supported on the Replicant Network through toolkits - each toolkit defines the interfaces to interact with crypto protocols. Because AI agents on the Replicant Network are based on LangChain, toolkits can be seen as extensions to LangChain plugins.
+## Extensible by Design
 
-All the toolkits are open-sourced and most of them are developed internally by the core team. However, the community can add support for new protocols and integrations by contributing new toolkits to the GitHub repository. In the future, there will also be a marketplace where the community will be able to crowdfund new integrations.
+Protocols are supported through **toolkits** - each toolkit defines the interfaces to interact with crypto protocols. Since our AI agents are built on LangChain, toolkits work as extensions to LangChain plugins.
 
+Our **toolkit-based architecture** makes it incredibly easy to add new capabilities:
+
+<CardGroup cols={2}>
+  <Card title="Protocol Interactions" icon="link">
+    DEXes, lending protocols, yield farms, staking validators, governance DAOs - any on-chain smart contract interaction
+  </Card>
+  <Card title="Cross-Chain Infrastructure" icon="arrows-rotate">
+    Bridges, rollups, sidechains, cross-chain messaging - seamless multi-blockchain operations
+  </Card>
+  <Card title="Asset Management" icon="wallet">
+    Token swaps, portfolio tracking, NFT collections, derivatives trading - comprehensive digital asset handling
+  </Card>
+  <Card title="Real-World Integration" icon="globe">
+    Fiat on/off ramps, payment processors, identity verification, traditional finance bridges
+  </Card>
+</CardGroup>
+
+
+## Supported Protocols
+
+### Networks
+<CardGroup cols={1}>
+  <Card title="Base Network">
+    Layer 2 Ethereum scaling solution with fast, low-cost transactions and full EVM compatibility
+  </Card>
+</CardGroup>
+
+### DEX Aggregation
+<CardGroup cols={1}>
+  <Card title="0x Protocol">
+    Access to 100+ decentralized exchanges including Uniswap, SushiSwap, Curve, Balancer, and more with automatic best price discovery and MEV protection
+  </Card>
+</CardGroup>
+
+### Asset Operations
+<CardGroup cols={1}>
+  <Card title="Token Transfers">
+    Native transfers for ETH, USDC, and other standard tokens with automatic gas optimization
+  </Card>
+  <Card title="Cross-chain Swaps">
+    Multi-network token exchanges through 0x's cross-chain infrastructure
+  </Card>
+</CardGroup>

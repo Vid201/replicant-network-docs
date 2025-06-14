@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "linden",
   "name": "Replicant Network Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF082D",
+    "light": "#FF082D",
+    "dark": "#FF082D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,8 +18,8 @@
             "pages": [
               "overview/introduction",
               "overview/how-it-works",
-              "overview/comparison",
-              "overview/get-started"
+              "overview/solutions",
+              "overview/comparison"
             ]
           },
           {
@@ -76,21 +76,6 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://rplcnt.io",
-          "icon": "desktop"
-        },
-        {
-          "anchor": "GitHub",
-          "href": "https://github.com/lutralabs",
-          "icon": "github"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mirror.xyz/0x425a76303f5d18d8b954fC1ade5DA6bB2B8ffEe8",
-          "icon": "newspaper"
-        }
       ]
     }
   },
@@ -100,27 +85,16 @@
   },
   "navbar": {
     "links": [
-      {
-        "label": "GitHub",
-        "href": "https://github.com/lutralabs"
-      },
-      {
-        "label": "Discord",
-        "href": "https://discord.gg/jj9K9UJwa7"
-      },
-      {
-        "label": "Twitter",
-        "href": "https://x.com/rplcnt_io"
-      }
     ],
     "primary": {
       "type": "button",
-      "label": "Visit app",
+      "label": "Rplcnt Demo",
       "href": "https://demo.rplcnt.io"
     }
   },
   "footer": {
     "socials": {
+      "discord": "https://discord.gg/jj9K9UJwa7",
       "x": "https://x.com/rplcnt_io",
       "github": "https://github.com/lutralabs",
       "linkedin": "https://linkedin.com/company/lutras"
